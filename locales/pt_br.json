@@ -1,0 +1,177 @@
+{
+	"clip": {
+		"description": "vai tirando eu mostro o video pae.",
+		"usagesReply": "aq o: {prefix}clip <nome>",
+		"errorQueue": "Nta querendo me fude caralho ja tem coisa tocando.",
+		"errorNotChannel": "ENTRA NO VOICE FILHADAPUTA!"
+	},
+	"clips": {
+		"description": "lista os clitoris"
+	},
+	"help": {
+		"description": "mostra essas buceta ai.",
+		"embedTitle": "{botname} mim ajuda",
+		"embedDescription": "amostra o cu."
+	},
+	"invite": {
+		"description": "chama pra putaria."
+	},
+	"loop": {
+		"description": "alguem disse repeteco?",
+		"errorNotQueue": "repetindo o vento aq pod.",
+		"result": "comunico que o repetir está {loop}"
+	},
+	"lyrics": {
+		"description": "nao canta isso junto nao pf.",
+		"errorNotQueue": "...   ...cabo essa eh a letra doq ta tocando",
+		"lyricsNotFound": "nao tem letra pra porra de {title}.",
+		"embedTitle": "{title} - Karaoke Version"
+	},
+	"move": {
+		"description": "realiza o famoso troca troca.",
+		"errorNotQueue": "troca troca sem gnt eh so punheta publica.",
+		"usagesReply": "assi: {prefix}move <Posição na playlist>",
+		"result": "<@{author}> 🚚 moveu o cu de **{title}** para {index} na playlist.",
+		"args": {
+			"movefrom": "Slot to move from",
+			"moveto": "Slot to move to"
+		}
+	},
+	"nowplaying": {
+		"description": "mostra a reprodução entre um humano e um vaporeon.",
+		"errorNotQueue": "engracadão vc hein.",
+		"embedTitle": "copulando",
+		"live": " ◉ MÃE TA AO VIVO",
+		"timeRemaining": "tem ainda: {time} , fica sussa ai"
+	},
+	"pause": {
+		"description": "pediu tempo.",
+		"errorNotQueue": "pausa oq filhadaputa.",
+		"result": "<@{author}> ⏸ pediu um comes e bebes."
+	},
+	"ping": {
+		"description": "amostra o pinto do bot.",
+		"result": "📈 pinto médio da API: {ping} cm"
+	},
+	"play": {
+		"description": "reproduz com a cadela da sua mãe",
+		"errorNotChannel": "ó putinha entra na call antes!",
+		"errorNotInSameChannel": "ENTRA NA MESMA CALL QUE O CORNO DO {user}",
+		"usageReply": "eh so usar assim acéfalo: {prefix}play <URL do Youtube | Nome do Vídeo | URL do Soundcloud>",
+		"missingPermissionConnect": "os cara quer q eu entre onde eu n posso, ala.",
+		"missingPermissionSpeak": "nao posso falar nessa merda de vc.",
+		"queueAdded": "✅ **{title}** <@{author}> colocou **{title}**",
+		"cantJoinChannel": "deu merda aqui: {error}",
+		"queueEnded": "❌ cabo sa merda.",
+		"queueError": "deu merda p crl aq: {error}",
+		"startedPlaying": "🎶 tocando uma pra hentai de: **{title}**",
+		"skipSong": "<@{author}> ⏩ pulou de boca na pica.",
+		"pauseSong": "<@{author}> ⏸ entrou na menopausa.",
+		"resumeSong": "<@{author}> ▶ volto pra orgia!",
+		"unmutedSong": "<@{author}> 🔊 tiro o saco da cara da piranha!",
+		"mutedSong": "<@{author}> 🔇 enfiou a rola na garganta da puta deixando-a sem fala!",
+		"decreasedVolume": "<@{author}> 🔉 abaixou o som pq eh uma putinha, agr ta em {volume}%",
+		"increasedVolume": "<@{author}> 🔊 aumentou essa caralha bora porra {volume}%",
+		"loopSong": "<@{author}> cade o after {loop}",
+		"stopSong": "<@{author}> ⏹ scaralhou o role!",
+		"leaveChannel": "saindo dessa porra!",
+		"songNotFound": "nao achei o grelo",
+		"songAccessErr": "isso ai é porno",
+		"errorInvalidURL": "ta de tiração mano? leio saporra nao"
+	},
+	"playlist": {
+		"description": "toca uma orgia pre pronta",
+		"usagesReply": "aq: {prefix}playlist <URL da Playlist do Youtube | Nome da Playlist>",
+		"errorNotChannel": "passa lubrificante nesse pau e ENTRA NA CALL!",
+		"errorNotInSameChannel": "FICA JUNTO DO {user} CARALHO",
+		"missingPermissionConnect": "nao consigo entra na call dos viadinho!",
+		"missingPermissionSpeak": "nao posso nem falar nessa merda!",
+		"errorNotFoundPlaylist": "cade a playlist seu puto >:(",
+		"fetchingPlaylist": "⌛ importando essa merda q se chama d playlist...",
+		"playlistCharLimit": "\nta achando q eh o cu da sua mae p cabe tanta coisa?",
+		"startedPlaylist": "<@{author}> reproduzindo com o cachorro do seu pai.",
+		"cantJoinChannel": "onde caralho seis tao falando? {error}"
+	},
+	"pruning": {
+		"description": "nem eu sei qq faz essa porra.",
+		"errorWritingFile": "deu merda aqui jorge.",
+		"result": "removi isso aq olha d novo {result}"
+	},
+	"queue": {
+		"description": "amostra o pau.",
+		"missingPermissionMessage": "nao reaja!",
+		"errorNotQueue": "❌ **n tem nada nessa casa.**",
+		"currentPage": "pagina - ",
+		"embedTitle": "playlista\n",
+		"embedCurrentSong": "**atualmente ta tocando isso aq - [{title}]({url})**\n\n{info}"
+	},
+	"remove": {
+		"description": "chama a msc pro gigante",
+		"errorNotQueue": "nao existe bio pra por o link.",
+		"usageReply": "assina co vasco assim: {prefix}remove <Número da música>",
+		"result": "<@{author}> ❌ cpf de **{title}** cancelado."
+	},
+	"resume": {
+		"description": "desempata a foda.",
+		"errorNotQueue": "num tem nada empatado amigo",
+		"resultNotPlaying": "<@{author}> ▶ voltou a comer cu de curioso!",
+		"errorPlaying": "nao tem playlist com a foda empatada."
+	},
+	"search": {
+		"description": "procura pra ver quem se importa",
+		"usageReply": "shereca holmes: {prefix}{name} <Nome do Vídeo>",
+		"errorAlreadyCollector": "TO PROCURANDO CARALHO AQUETA O CU.",
+		"errorNotChannel": "entra na caralha do vc antes neh puta!",
+		"resultEmbedTitle": "**Você precisa enfiar um número no cu.**",
+		"resultEmbedDesc": "achei sa merda aqui: {search}",
+		"optionQuery": "Search query"
+	},
+	"shuffle": {
+		"description": "ativa o gangbang",
+		"errorNotQueue": "nao da p fazer suruba sem ninguem.",
+		"result": "<@{author}> 🔀 organizou a suruba."
+	},
+	"skip": {
+		"description": "pula na minha pica.",
+		"errorNotQueue": "calaboca puta.",
+		"result": "<@{author}> ⏭ pulou na minha pica"
+	},
+	"skipto": {
+		"description": "pula em cima de determinada pica.",
+		"usageReply": "assi o: {prefix}{name} <Número da playlist>",
+		"errorNotQueue": "mas puuuuta que pariu nao tem nada caralho quer ouvir oq.",
+		"errorNotValid": "tem {length} música ainda, faz o L!",
+		"result": "<@{author}> ⏭ pulou em alguma pica e tocou {arg}",
+		"args": {
+			"number": "The queue number to skip to"
+		}
+	},
+	"stop": {
+		"description": "para a caralha da musica.",
+		"errorNotQueue": "NÃO TA TOCANDO NADA SEU PUTO.",
+		"result": "<@{author}> ⏹ empatou minha foda!"
+	},
+	"uptime": {
+		"description": "quanto tempo o bagulho ta indo",
+		"result": "pai ta on por: `{days} dia(s),{hours} hora(s), {minutes} minuto(s), {seconds} segundo(s)`"
+	},
+	"volume": {
+		"description": "muda a altura do predio que eu quero me joga.",
+		"errorNotQueue": "n tem nada tocando o surdo.",
+		"errorNotChannel": "entra em call porra!",
+		"currentVolume": "🔊 As trombetas do inferno estão em: **{volume}%**",
+		"errorNotNumber": "usa numeros o bixa.",
+		"errorNotValid": "numeros de 0 - 100 o engraçadao.",
+		"result": "volume das trombetas do inferno em: **{arg}%**"
+	},
+	"common": {
+		"on": "**ligado vem c pai**",
+		"off": "**desligado cortaram a luz**",
+		"enabled": "**poggers**",
+		"disabled": "**noggers**",
+		"errorNotChannel": "entra em uma call carai!",
+		"cooldownMessage": "ooooo precoce espera {time} segundo(s) ai antes de dar `{name}` dnovo.",
+		"errorCommand": "deu merda aqui amigo."
+	},
+	"https": "https"
+}
