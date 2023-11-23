@@ -68,7 +68,7 @@ export class Bot {
     for (const file of commandFiles) {
       const command = await import(join(__dirname, "..", "commands", `${file}`));
 
-      if (command.default.data) {
+      if (command.default?.data) {
         this.slashCommands.push(command.default.data as ChatInputApplicationCommandData);
         this.slashCommandsMap.set(command.default.data.name, command.default);
         this.commands.set(command.default.data.name, command.default); // Adding to regular commands
