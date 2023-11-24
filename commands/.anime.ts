@@ -1,21 +1,36 @@
-import { Client, Message } from "discord.js";
 
-const client = new Client({
-    intents: [0, 512],
-});
+import { ChatInputCommandInteraction, SlashCommandBuilder } from "discord.js";
 
-client.on("messageCreate", async (message) => {
-  try {
-    if (message.author.bot) return;
+const anime = {
+  data: new SlashCommandBuilder()
+    .setName("anime")
+    .setDescription("Check if the message contains 'anime'")
+    .addStringOption(option =>
+      option
+        .setName("text")
+        .setDescription("The text to check for 'anime'")
+        .setRequired(true)
+    ),
+  async execute(interaction: ChatInputCommandInteraction) {
+    try {
+      const textOption = interaction.options?.getString("text", false);
 
-    const content = message.content.toLowerCase();
+      if (textOption) {
+        const content = textOption.toLowerCase();
 
-    if (content.includes(":o")) {
-      await message.channel.send("yuu");
+        if (content.includes("anime")) {
+          await interaction.reply("yay");
+        } else {
+          await interaction.reply("nay");
+        }
+      } else {
+        await interaction.reply("No text provided");
+      }
+    } catch (error) {
+      console.error(error);
     }
-  } catch (error) {
-    console.error(error);
-  }
-});
+  },
+};
 
-client.login("ODU3MDIwNTExNjI4Njg5NDA4.G0A8pH.vrxwK_1dSzZAyUI56YaHyi81v4_5Z6oe2O6DjQ");
+export default anime;
+
